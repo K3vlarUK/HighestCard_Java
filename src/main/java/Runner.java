@@ -31,11 +31,13 @@ public class Runner {
             String choice = "";
             if ( winner != null) {
                 System.out.println("The winner is " + winner + " ");
+                System.out.println("-----------");
                 System.out.println("Go again? y/n");
                 choice = scanner.nextLine();
             } else {
                 System.out.println("It is a draw!");
                 System.out.println("Go again? y/n");
+                System.out.println("-----------");
                 choice = scanner.nextLine();
             }
             if (choice.equals("n")){
